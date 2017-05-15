@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Tushino Artillery">
+	<Package name="who cares">
+		<Container name="whatever">
+			<Key ID="STR_tu_arty_increase_deflection">
+				<Original>Увеличить значение угломера</Original>
+				<English>Increase deflection</English>
+			</Key>
+			<Key ID="STR_tu_arty_decrease_deflection">
+				<Original>Уменьшить значение угломера</Original>
+				<English>Decrease deflection</English>
+			</Key>
+			<Key ID="STR_tu_arty_increase_elevation">
+				<Original>Увеличить прицел</Original>
+				<English>Increase elevation</English>
+			</Key>
+			<Key ID="STR_tu_arty_decrease_elevation">
+				<Original>Уменьшить прицел</Original>
+				<English>Decrease elevation</English>
+			</Key>
+			<Key ID="STR_tu_arty_bubble_level">
+				<Original>Продольный уровень</Original>
+				<English>Bubble level</English>
+			</Key>
+			<Key ID="STR_tu_arty_deflection_value_small">
+				<Original>Значение по шкале барабанчика угломера</Original>
+				<English>Deflection (mils)</English>
+			</Key>
+			<Key ID="STR_tu_arty_deflection_value_large">
+				<Original>Значение по шкале больших значений угломера</Original>
+				<English>Deflection (x100 mil)</English>
+			</Key>
+			<Key ID="STR_tu_arty_elevation_value_small">
+				<Original>Значение по шкале барабанчика прицела</Original>
+				<English>Elevation (mils)</English>
+			</Key>
+			<Key ID="STR_tu_arty_elevation_value_large">
+				<Original>Значение по шкале больших значений прицела</Original>
+				<English>Elevation (x100 mil)</English>
+			</Key>
+			<Key ID="STR_tu_arty_decrease_optic_level">
+				<Original>Опустить окуляр</Original>
+				<English>Lower line of sight</English>
+			</Key>
+			<Key ID="STR_tu_arty_increase_optic_level">
+				<Original>Поднять окуляр</Original>
+				<English>Raise line of sight</English>
+			</Key>
+			
+			<Key ID="STR_A3_tu_arty_prep_shells_dialog_RscText_1000">
+				<Original>Подготовка мин</Original>
+				<English>Prepare Shells</English>
+			</Key>
+			<Key ID="STR_A3_tu_arty_prep_shells_dialog_RscText_1001">
+				<Original>Тип мины</Original>
+				<English>Shell Type</English>
+			</Key>
+			<Key ID="STR_A3_tu_arty_prep_shells_dialog_RscText_1002">
+				<Original>Кол-во: %1</Original>
+				<English>Qty: %1</English>
+			</Key>
+			<Key ID="STR_A3_tu_arty_prep_shells_dialog_RscText_1003">
+				<Original>Заряд</Original>
+				<English>Charge</English>
+			</Key>
+			<Key ID="STR_A3_tu_arty_prep_shells_dialog_RscButton_1600">
+				<Original>Готовить</Original>
+				<English>Prepare</English>
+			</Key>
+			<Key ID="STR_A3_tu_arty_prep_shells_dialog_RscButton_1601">
+				<Original>Отставить</Original>
+				<English>Cancel</English>
+			</Key>
+		</Container>
+	</Package>
+</Project>
