@@ -19,7 +19,6 @@ class CfgFunctions
 			class add_trackable {file = "\tu_arty_config\functions\add_trackable.sqf";};
 			class ammo_cookoff {file = "\tu_arty_config\functions\ammo_cookoff.sqf";};
 			class ammo_explode {file = "\tu_arty_config\functions\ammo_explode.sqf";};
-			class attach_grenade {file = "\tu_arty_config\functions\attach_grenade.sqf";};
 			class assign_marker_color {file = "\tu_arty_config\functions\assign_marker_color.sqf";};
 			class collapse_aiming_circle {file = "\tu_arty_config\functions\collapse_aiming_circle.sqf";};
 			class collective_action {file = "\tu_arty_config\functions\collective_action.sqf";};
@@ -37,19 +36,16 @@ class CfgFunctions
 			class give_up_token {file = "\tu_arty_config\functions\give_up_token.sqf";};
 			class getIn_EH {file = "\tu_arty_config\functions\GetIn.sqf";};
 			class getOut_EH {file = "\tu_arty_config\functions\GetOut.sqf";};
-			class grenade_subactions {file = "\tu_arty_config\functions\grenade_subactions.sqf";};
 			class handleKeydown {file = "\tu_arty_config\functions\handleKeydown.sqf";};
 			class is_shell_detected {file = "\tu_arty_config\functions\is_shell_detected.sqf";};
 			class keydown_EH {file = "\tu_arty_config\functions\keydown.sqf";};
 			class level_gun {file = "\tu_arty_config\functions\level_gun.sqf";};
 			class level_howitzer {file = "\tu_arty_config\functions\level_howitzer.sqf";};
 			class optic_change {file = "\tu_arty_config\functions\optic_change.sqf";};
-			class position_camera {file = "\tu_arty_config\functions\position_camera.sqf";};
 			class proximity_burst {file = "\tu_arty_config\functions\proximity_burst.sqf";};
 			class prep_diag_init {file = "\tu_arty_config\functions\prep_diag_init.sqf";};
 			class raise_pole {file = "\tu_arty_config\functions\raise_pole.sqf";};
 			class request_token {file = "\tu_arty_config\functions\request_token.sqf";};
-			class release_grenade {file = "\tu_arty_config\functions\release_grenade.sqf";};
 			class recoil {file = "\tu_arty_config\functions\recoil.sqf";};
 			class select_helpers {file = "\tu_arty_config\functions\select_helpers.sqf";};
 			class shift {file = "\tu_arty_config\functions\shift.sqf";};
@@ -1692,8 +1688,7 @@ class CfgVehicles
 
 			class MainTurret: MainTurret {
 				/*extern*/ class ViewOptics;
-				animationSourceCamElevation = "OpticElevate";
-				// cameraDir = "";
+				
 				gunnerAction = "rhs_D30_Cargo";
 				weapons[] = {"bn_mortar_60mm"};
 				magazines[] = {};
@@ -1840,6 +1835,14 @@ class CfgVehicles
 				initPhase = 1030;
 				minValue = 750;
 				maxValue = 1467;
+			};
+			
+			class OpticLens {
+				source = "user";
+				animPeriod = 0.001000;
+				initPhase = 0;
+				minValue = -100;
+				maxValue = 100;
 			};
 
 			class OpticRevolve {

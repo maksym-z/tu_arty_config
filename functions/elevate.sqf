@@ -20,4 +20,5 @@ _newPhase = round(_phase+_dir*_mult);
 _gun animate ["MainGun", _newPhase];
 _gun setVariable ["MainGun",_newPhase];
 
+
 if (scriptDone tu_arty_dials_handle) then {tu_arty_dials_handle = [vehicle player] execVM "\tu_arty_config\scripts\dials.sqf"};
