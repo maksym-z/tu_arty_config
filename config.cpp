@@ -1645,9 +1645,17 @@ class CfgVehicles
 			class OpticElevate {
 				source = "user";
 				animPeriod = 0.001000;
-				initPhase = 1030;
+				initPhase = 1000;
 				minValue = 750;
-				maxValue = 1467;
+				maxValue = 1500;
+			};
+			
+			class OpticLens {
+				source = "user";
+				animPeriod = 0.001000;
+				initPhase = 0;
+				minValue = -100;
+				maxValue = 100;
 			};
 
 			class OpticRevolve {
@@ -1739,9 +1747,17 @@ class CfgVehicles
 			class OpticElevate {
 				source = "user";
 				animPeriod = 0.001000;
-				initPhase = 1030;
+				initPhase = 1000;
 				minValue = 750;
-				maxValue = 1467;
+				maxValue = 1500;
+			};
+			
+			class OpticLens {
+				source = "user";
+				animPeriod = 0.001000;
+				initPhase = 0;
+				minValue = -100;
+				maxValue = 100;
 			};
 
 			class OpticRevolve {
@@ -1832,9 +1848,9 @@ class CfgVehicles
 			class OpticElevate {
 				source = "user";
 				animPeriod = 0.001000;
-				initPhase = 1030;
+				initPhase = 1000;
 				minValue = 750;
-				maxValue = 1467;
+				maxValue = 1500;
 			};
 			
 			class OpticLens {
